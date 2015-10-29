@@ -1,11 +1,10 @@
 {
   "name": "voskobovich/yii2-liqpay",
-  "description": "The foundation for implementing CRUD operations administrative panel for Yii2",
+  "description": "The toolkit of integration LiqPay service in your project for Yii2",
   "keywords": [
-    "admin",
-    "crud",
-    "yii2",
-    "panel"
+    "liqpay",
+    "e-commerce",
+    "yii2"
   ],
   "homepage": "https://github.com/voskobovich/yii2-liqpay",
   "type": "yii2-toolkit",
