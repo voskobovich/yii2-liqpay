@@ -1,0 +1,37 @@
+{
+  "name": "voskobovich/yii2-liqpay",
+  "description": "The foundation for implementing CRUD operations administrative panel for Yii2",
+  "keywords": [
+    "admin",
+    "crud",
+    "yii2",
+    "panel"
+  ],
+  "homepage": "https://github.com/voskobovich/yii2-liqpay",
+  "type": "yii2-toolkit",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/voskobovich/yii2-liqpay/issues",
+    "source": "https://github.com/voskobovich/yii2-liqpay"
+  },
+  "authors": [
+    {
+      "name": "Vitaly Voskobovich",
+      "email": "vitaly@voskobovich.com",
+      "homepage": "http://voskobovich.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "voskobovich\\liqpay\\": "",
+      "voskobovich\\liqpay\\actions\\": "actions",
+      "voskobovich\\liqpay\\forms\\": "forms",
+      "voskobovich\\liqpay\\widgets\\": "widgets"
+    }
+  }
+}
