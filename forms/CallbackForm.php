@@ -48,6 +48,9 @@ class CallbackForm extends Model
     public $status;
     public $card_token;
 
+    public $token;
+    public $redirect_to;
+
     /**
      * @return string
      */
@@ -70,6 +73,7 @@ class CallbackForm extends Model
             ['currency', 'in', 'range' => array_keys(self::getCurrencyItems())],
             ['type', 'in', 'range' => array_keys(self::getTypeItems())],
             ['status', 'in', 'range' => array_keys(self::getStatusItems())],
+            [['token','redirect_to'], 'safe']
         ];
     }
 
