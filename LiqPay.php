@@ -22,6 +22,7 @@ class LiqPay extends Component
     public $language = 'ru';
     public $server_url;
     public $result_url;
+    public $paymentName;
 
     /**
      * @inheritdoc
